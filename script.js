@@ -9,7 +9,7 @@ let sadSound = new Audio("./assets/crying-cat.mp3")
 
 btnYes.addEventListener('click', () => {
     image.src = "./assets/happy-cat-happy-happy-cat.gif"
-    title.innerHTML = "Aww I love you too 😘"
+    title.innerHTML = "Aww I love you too. Edi tayo na! 😘"
     sadSound.pause()
     happySound.play()
     happySound.loop = true
